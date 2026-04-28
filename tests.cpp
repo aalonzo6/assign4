@@ -71,7 +71,7 @@ TEST_CASE( "getShippingCost Drone" ) {
 
 TEST_CASE( "getShippingCost 2-Day" ) {
    cout << "2: getShippingCost 2-Day" << endl;
- CHECK( getShippingCost(2, 120) == doctest::Approx(12.4) );
+   CHECK( getShippingCost(2, 120) == doctest::Approx(12.4) );
    CHECK( getShippingCost(2, 300) == doctest::Approx(16) );
    CHECK( getShippingCost(2, 350) == doctest::Approx(0) );
 }
