@@ -44,7 +44,7 @@ double getShippingCost(int shippingMethod, double orderCost){
 }
    if (shippingMethod == 2){
       if (orderCost <= 300){
-         return 
+         return 10 + (300 * 0.10)
       }
    }
 
