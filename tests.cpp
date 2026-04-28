@@ -69,12 +69,12 @@ TEST_CASE( "getShippingCost Drone" ) {
    CHECK( getShippingCost(1, 615) == doctest::Approx(61.5) );
 }
 
-//TEST_CASE( "getShippingCost 2-Day" ) {
-//   cout << "2: getShippingCost 2-Day" << endl;
-// CHECK( getShippingCost(2, 120) == doctest::Approx(12.4) );
-//   CHECK( getShippingCost(2, 300) == doctest::Approx(16) );
-//   CHECK( getShippingCost(2, 350) == doctest::Approx(0) );
-//}
+TEST_CASE( "getShippingCost 2-Day" ) {
+   cout << "2: getShippingCost 2-Day" << endl;
+ CHECK( getShippingCost(2, 120) == doctest::Approx(12.4) );
+   CHECK( getShippingCost(2, 300) == doctest::Approx(16) );
+   CHECK( getShippingCost(2, 350) == doctest::Approx(0) );
+}
 
 //TEST_CASE( "getShippingCost Standard" ) {
 //   cout << "3: getShippingCost Standard" << endl;
