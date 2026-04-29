@@ -88,11 +88,11 @@ TEST_CASE( "getShippingCost 2-Day" ) {
 }
 
 TEST_CASE( "getShippingCost Standard" ) {
-//   cout << "3: getShippingCost Standard" << endl;
-//   CHECK( getShippingCost(3, 10) == doctest::Approx(5) );
-//   CHECK( getShippingCost(3, 50) == doctest::Approx(8) );
-//   CHECK( getShippingCost(3, 200) == doctest::Approx(0) );
-//}
+   cout << "3: getShippingCost Standard" << endl;
+   CHECK( getShippingCost(3, 10) == doctest::Approx(5) );
+   CHECK( getShippingCost(3, 50) == doctest::Approx(8) );
+   CHECK( getShippingCost(3, 200) == doctest::Approx(0) );
+}
 
 //TEST_CASE( "getShippingCost Invalid" ) {
 //   cout << "4: getShippingCost Invalid" << endl;
