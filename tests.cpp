@@ -57,7 +57,7 @@ double getShippingCost(int shippingMethod, double orderCost){
          return 8;
       }
       else {
-         
+         return 0
       }
    }
 }
