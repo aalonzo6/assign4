@@ -94,7 +94,7 @@ TEST_CASE( "getShippingCost Standard" ) {
    CHECK( getShippingCost(3, 200) == doctest::Approx(0) );
 }
 
-//TEST_CASE( "getShippingCost Invalid" ) {
+TEST_CASE( "getShippingCost Invalid" ) {
 //   cout << "4: getShippingCost Invalid" << endl;
 //   CHECK( getShippingCost(1, 50) == doctest::Approx(-1) );   // Drone under $100
 //   CHECK( getShippingCost(4, 150) == doctest::Approx(-1) );  // Invalid method
