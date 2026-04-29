@@ -53,7 +53,7 @@ double getShippingCost(int shippingMethod, double orderCost){
       if (orderCost < 35){
          return 5;
       else if (orderCost > 100){
-         return 
+         return 8;
       }
       }
    }
