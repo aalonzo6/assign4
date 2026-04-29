@@ -49,7 +49,7 @@ double getShippingCost(int shippingMethod, double orderCost){
          return 0;
       }
    }
-   
+   if (shippingCost == 3)
 }
 
 
