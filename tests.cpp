@@ -55,6 +55,9 @@ double getShippingCost(int shippingMethod, double orderCost){
       else if (orderCost > 100){
          return 8;
       }
+      else {
+         
+      }
       }
    }
 }
