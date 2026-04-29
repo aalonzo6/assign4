@@ -60,7 +60,9 @@ double getShippingCost(int shippingMethod, double orderCost){
          return 0;
       }
    }
-   if (shippingMethod > 3 || shippingMethod < 1)
+   if (shippingMethod > 3 || shippingMethod < 1){
+      return -1;
+   }
 }
 
 
