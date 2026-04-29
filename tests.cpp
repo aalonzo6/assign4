@@ -66,6 +66,7 @@ double getShippingCost(int shippingMethod, double orderCost){
 
 
 
+
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
