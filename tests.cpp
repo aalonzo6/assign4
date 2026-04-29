@@ -57,7 +57,7 @@ double getShippingCost(int shippingMethod, double orderCost){
          return 8;
       }
       else {
-         return 0
+         return 0;
       }
    }
 }
@@ -87,7 +87,7 @@ TEST_CASE( "getShippingCost 2-Day" ) {
    CHECK( getShippingCost(2, 350) == doctest::Approx(0) );
 }
 
-//TEST_CASE( "getShippingCost Standard" ) {
+TEST_CASE( "getShippingCost Standard" ) {
 //   cout << "3: getShippingCost Standard" << endl;
 //   CHECK( getShippingCost(3, 10) == doctest::Approx(5) );
 //   CHECK( getShippingCost(3, 50) == doctest::Approx(8) );
